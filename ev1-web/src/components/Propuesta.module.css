@@ -1,0 +1,19 @@
+.propuestaContainer {
+  display: flex;
+  flex-direction: column;
+  background: #eef2f5;
+  padding: 40px;
+  margin: 40px 0;
+  border-radius: 8px;
+}
+/* Responsividad Mobile First a Desktop */
+@media screen and (min-width: 768px) {
+  .propuestaContainer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.texto { flex: 1; margin-right: 20px; }
+.imagenContainer { flex: 1; }
+.imgPlaceholder { height: 200px; background: #bbb; border-radius: 8px; }

@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  color: #222; /* Esto forzará a que todo el texto sea oscuro y legible */
+}
+
+/* Opcional: para que los títulos destaquen más */
+h1, h2, h3 {
+  color: #111;
+}

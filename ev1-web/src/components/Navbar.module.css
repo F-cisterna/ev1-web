@@ -3,16 +3,16 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  background-color: #111; /* Fondo casi negro */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
-.navLinks {
-  display: flex;
-  gap: 20px;
-  list-style: none;
+.logo {
+  color: #ffc107; /* Amarillo para el logo del texto */
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 .navLinks a {
   text-decoration: none;
-  color: #333;
+  color: #fff; /* Links en blanco */
   font-weight: bold;
 }

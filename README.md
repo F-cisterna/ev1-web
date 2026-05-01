@@ -20,7 +20,7 @@ Si deseas correr este proyecto de manera local, sigue estos pasos:
 1. Clona el repositorio:
    git clone https://github.com/F-cisterna/ev1-web
    
-3. Ejecutar
+2. Ejecutar
    npm install
    npm run dev
    

@@ -1,5 +1,4 @@
 import styles from "./Propuesta.module.css";
-// 1. Importa una imagen general de guitarras o de una tienda desde tus assets
 import imgTienda from "../assets/tienda.png"; 
 
 export function Propuesta({ titulo, texto }) {

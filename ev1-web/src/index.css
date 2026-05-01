@@ -7,10 +7,10 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f9f9f9;
-  color: #222; /* Esto forzará a que todo el texto sea oscuro y legible */
+  color: #222; 
 }
 
-/* Opcional: para que los títulos destaquen más */
+
 h1, h2, h3 {
   color: #111;
 }

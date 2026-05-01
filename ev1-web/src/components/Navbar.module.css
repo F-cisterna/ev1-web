@@ -3,16 +3,16 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background-color: #111; /* Fondo casi negro */
+  background-color: #111; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
 .logo {
-  color: #ffc107; /* Amarillo para el logo del texto */
+  color: #ffc107; 
   font-weight: bold;
   font-size: 1.5rem;
 }
 .navLinks a {
   text-decoration: none;
-  color: #fff; /* Links en blanco */
+  color: #fff; 
   font-weight: bold;
 }

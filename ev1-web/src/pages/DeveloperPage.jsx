@@ -1,19 +1,42 @@
 import { Navbar } from "../components/Navbar";
+import styles from "./Developer.module.css";
+import miFoto from "../assets/perfil.jpg"; 
 
 export function DeveloperPage() {
   return (
-    <div>
+    <div className={styles.pageBackground}>
       <Navbar />
-      <div style={{ padding: "40px 5vw", textAlign: "center" }}>
-        <h2>Perfil del Desarrollador</h2>
-        <div style={{ marginTop: "20px", padding: "20px", border: "1px solid #ccc", borderRadius: "8px", display: "inline-block" }}>
-          <div style={{ width: "100px", height: "100px", borderRadius: "50%", background: "#ccc", margin: "0 auto 20px" }}></div>
-          <h3>Fabián Cisterna</h3>
-          <p><strong>Carrera:</strong> Informática</p>
-          <p><strong>Ciudad:</strong> San Fernando, O'Higgins, Chile</p>
-          <p><strong>GitHub:</strong> <a href="https://github.com/F-cisterna" target="_blank" rel="noreferrer">Ver perfil</a></p>
+      
+      <main className={styles.mainContainer}>
+        <div className={styles.profileCard}>
+          
+          <div className={styles.banner}></div>
+
+          <div className={styles.content}>
+            <div className={styles.avatarWrapper}>
+              <img 
+                src={miFoto} 
+                alt="Fabián Cisterna" 
+                className={styles.avatar} 
+                style={{ objectFit: "cover" }} 
+              />
+              
+            </div>
+
+            <h1 className={styles.name}>Fabián Cisterna</h1>
+            <h2 className={styles.role}>Practicante de Informática | Desarrollador Backend</h2>
+
+            <div className={styles.location}>
+              📍 San Fernando, O'Higgins, Chile
+            </div>
+
+
+            <a href="https://github.com/F-cisterna" target="_blank" rel="noreferrer" className={styles.githubButton}>
+              Visitar GitHub
+            </a>
+          </div>
         </div>
-      </div>
+      </main>
     </div>
   );
 }

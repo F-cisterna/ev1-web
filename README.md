@@ -5,7 +5,6 @@ Catálogo virtual de guitarras desarrollado como Single Page Application (SPA) p
 Enlaces del Proyecto
 
 *   Despliegue en Vivo (Vercel): https://ev1-b8mjp219b-f-cisternas-projects.vercel.app/
-*   Repositorio (GitHub): https://github.com/F-cisterna/ev1-web
 
 Tecnologías y Herramientas Utilizadas
 

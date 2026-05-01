@@ -24,7 +24,7 @@ export function DeveloperPage() {
             </div>
 
             <h1 className={styles.name}>Fabián Cisterna</h1>
-            <h2 className={styles.role}>Practicante de Informática | Desarrollador Backend</h2>
+            <h2 className={styles.role}>Ingenieria Civil Informatica</h2>
 
             <div className={styles.location}>
               📍 San Fernando, O'Higgins, Chile

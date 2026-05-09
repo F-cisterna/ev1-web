@@ -5,7 +5,14 @@ import { NotFoundPage } from "./pages/NotFounPage";
 
 const router = createBrowserRouter([
   { path: "/", element: <HomePage /> },
-  { path: "/desarrollador", element: <DeveloperPage /> },
+  { 
+    path: "/desarrollador", 
+    element: <DeveloperPage 
+      nombre="Fabián Cisterna"
+      rol="Practicante de Informática | Desarrollador Backend"
+      ubicacion="San Fernando, O'Higgins, Chile"
+    /> 
+  },
   { path: "*", element: <NotFoundPage /> },
 ]);
 
